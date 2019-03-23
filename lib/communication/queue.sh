@@ -2,7 +2,7 @@
 
 require filesystem/store
 require filesystem/lock
-require ipc/pipe
+require communication/pipe
 
 function queue.create() {
   local queue

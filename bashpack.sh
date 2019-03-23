@@ -34,7 +34,7 @@ declare -r CLIENT_QUEUE_STORE="${DB_DIR}/client-${CLIENT_ID}-queue.store"
 require common/common
 require common/try
 require common/log
-require ipc/queue
+require communication/queue
 require filesystem/store
 require filesystem/file
 

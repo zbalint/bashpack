@@ -26,11 +26,11 @@ require common/common
 require common/log
 require common/try
 require common/error
-require process/run
-require process/parallel
-require process/fork
-require ipc/pipe
-require ipc/queue
+require parallel/run
+require parallel/parallel
+require parallel/fork
+require communication/pipe
+require communication/queue
 require filesystem/store
 require filesystem/file
 
